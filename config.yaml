@@ -1,0 +1,32 @@
+name: "Wiren Board Discovery"
+description: "Use Home Assistant MQTT Discovery to add Wiren Board devices"
+version: "1.0.0"
+slug: "ha_wb_discovery"
+url: "https://github.com/vetcher/ha-wb-discovery"
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+map:
+  - type: addon_config
+    read_only: false
+options:
+  wirenboard:
+    broker_host: null
+    broker_port: 1883
+  general.loglevel: WARNING
+  mqtt.client_id: "ha-wb-discovery"
+  mqtt.loglevel: ERROR
+schema:
+  wirenboard:
+    broker_host: str
+    broker_port: port
+    username: str?
+    password: password?
+  general.loglevel: match(DEBUG|INFO|WARNING|ERROR|FATAL)
+  mqtt.client_id: str
+  mqtt.loglevel: match(DEBUG|INFO|WARNING|ERROR|FATAL)
+services:
+  - mqtt:need
