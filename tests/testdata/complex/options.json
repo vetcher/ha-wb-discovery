@@ -1,0 +1,10 @@
+{
+    "wirenboard": {
+        "broker_host": "localhost",
+        "broker_port": 1883
+    },
+    "homeassistant.splitted_device_ids": ["wb_mr3_16"],
+    "homeassistant.combined_devices": [{"device_id": "wb_mr3_16_k1", "new_device_id": "light_switch_1", "new_name": "Light Switch 1 WB-MR3 16"}],
+    "homeassistant.ignored_device_ids": ["buzzer", "knx"],
+    "homeassistant.ignored_device_control_ids": ["system_reboot"]
+}

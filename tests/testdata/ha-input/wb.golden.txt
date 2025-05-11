@@ -1,0 +1,1 @@
+{"topic": "/devices/wb-mr3_16/controls/K1/on", "payload": "1"}

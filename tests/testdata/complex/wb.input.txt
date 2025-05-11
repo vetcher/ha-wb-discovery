@@ -1,0 +1,556 @@
+{"topic": "/devices/wbrules/meta/name", "payload": "Rule engine settings"}
+{"topic": "/devices/wbrules/meta/driver", "payload": "wb-rules"}
+{"topic": "/devices/buzzer/meta/name", "payload": "Buzzer"}
+{"topic": "/devices/buzzer/meta/driver", "payload": "wb-rules"}
+{"topic": "/devices/network/meta/name", "payload": "Network"}
+{"topic": "/devices/network/meta/driver", "payload": "wb-rules"}
+{"topic": "/devices/hwmon/meta/name", "payload": "HW Monitor"}
+{"topic": "/devices/hwmon/meta/driver", "payload": "wb-rules"}
+{"topic": "/devices/metrics/meta/driver", "payload": "wb-mqtt-metrics"}
+{"topic": "/devices/metrics/meta/name", "payload": "Metrics"}
+{"topic": "/devices/power_status/meta/name", "payload": "Power status"}
+{"topic": "/devices/power_status/meta/driver", "payload": "wb-rules"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/meta/name", "payload": "Network Connection wb-eth1"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/meta/driver", "payload": "wb-nm-helper"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/meta/name", "payload": "Network Connection wb-gsm-sim2"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/meta/driver", "payload": "wb-nm-helper"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/meta/name", "payload": "Network Connection wb-gsm-sim1"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/meta/driver", "payload": "wb-nm-helper"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/meta/name", "payload": "Network Connection wb-ap"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/meta/driver", "payload": "wb-nm-helper"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/meta/name", "payload": "Network Connection wb-eth0"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/meta/driver", "payload": "wb-nm-helper"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/meta/name", "payload": "Network Connection wb-debug"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/meta/driver", "payload": "wb-nm-helper"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/meta/name", "payload": "Network Connection lo"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/meta/driver", "payload": "wb-nm-helper"}
+{"topic": "/devices/wb-gpio/meta/driver", "payload": "wb-gpio"}
+{"topic": "/devices/wb-gpio/meta/name", "payload": "Discrete I/O"}
+{"topic": "/devices/knx/meta/driver", "payload": "wb-mqtt-knx"}
+{"topic": "/devices/knx/meta/name", "payload": "KNX gateway"}
+{"topic": "/devices/wb-adc/meta/driver", "payload": "wb-adc"}
+{"topic": "/devices/wb-adc/meta/name", "payload": "ADCs"}
+{"topic": "/devices/wb-mr3_16/meta/driver", "payload": "wb-modbus"}
+{"topic": "/devices/wb-mr3_16/meta/name", "payload": "WB-MR3 16"}
+{"topic": "/devices/system/meta/name", "payload": "System"}
+{"topic": "/devices/system/meta/driver", "payload": "wb-rules"}
+{"topic": "/devices/alarms/meta/name", "payload": "Alarms"}
+{"topic": "/devices/alarms/meta/driver", "payload": "wb-rules"}
+{"topic": "/devices/wb-w1/meta/driver", "payload": "wb-w1"}
+{"topic": "/devices/wb-w1/meta/name", "payload": "1-wire Thermometers"}
+{"topic": "/devices/system__wb-cloud-agent__default/meta/name", "payload": "Cloud status default"}
+{"topic": "/devices/system__wb-cloud-agent__default/meta/driver", "payload": "wb-cloud-agent"}
+{"topic": "/devices/wbrules/controls/Rule debugging/meta/type", "payload": "switch"}
+{"topic": "/devices/wbrules/controls/Rule debugging/meta/order", "payload": "1"}
+{"topic": "/devices/wbrules/controls/Rule debugging/meta/readonly", "payload": "0"}
+{"topic": "/devices/buzzer/controls/enabled/meta/type", "payload": "switch"}
+{"topic": "/devices/buzzer/controls/enabled/meta/order", "payload": "1"}
+{"topic": "/devices/buzzer/controls/enabled/meta/readonly", "payload": "0"}
+{"topic": "/devices/buzzer/controls/frequency/meta/type", "payload": "range"}
+{"topic": "/devices/buzzer/controls/frequency/meta/max", "payload": "7000"}
+{"topic": "/devices/buzzer/controls/frequency/meta/min", "payload": "0"}
+{"topic": "/devices/buzzer/controls/frequency/meta/order", "payload": "2"}
+{"topic": "/devices/buzzer/controls/frequency/meta/readonly", "payload": "0"}
+{"topic": "/devices/buzzer/controls/volume/meta/type", "payload": "range"}
+{"topic": "/devices/buzzer/controls/volume/meta/max", "payload": "100"}
+{"topic": "/devices/buzzer/controls/volume/meta/min", "payload": "0"}
+{"topic": "/devices/buzzer/controls/volume/meta/order", "payload": "3"}
+{"topic": "/devices/buzzer/controls/volume/meta/readonly", "payload": "0"}
+{"topic": "/devices/network/controls/Active Connections/meta/type", "payload": "text"}
+{"topic": "/devices/network/controls/Active Connections/meta/order", "payload": "1"}
+{"topic": "/devices/network/controls/Active Connections/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/Default Interface/meta/type", "payload": "text"}
+{"topic": "/devices/network/controls/Default Interface/meta/order", "payload": "2"}
+{"topic": "/devices/network/controls/Default Interface/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/Ethernet 2 IP/meta/order", "payload": "7"}
+{"topic": "/devices/network/controls/Ethernet 2 IP/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/Ethernet 2 IP/meta/type", "payload": "text"}
+{"topic": "/devices/network/controls/Ethernet 2 IP Connection Enabled/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/Ethernet 2 IP Connection Enabled/meta/type", "payload": "switch"}
+{"topic": "/devices/network/controls/Ethernet 2 IP Connection Enabled/meta/order", "payload": "9"}
+{"topic": "/devices/network/controls/Ethernet 2 IP Online Status/meta/type", "payload": "switch"}
+{"topic": "/devices/network/controls/Ethernet 2 IP Online Status/meta/order", "payload": "8"}
+{"topic": "/devices/network/controls/Ethernet 2 IP Online Status/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/Ethernet IP/meta/type", "payload": "text"}
+{"topic": "/devices/network/controls/Ethernet IP/meta/order", "payload": "4"}
+{"topic": "/devices/network/controls/Ethernet IP/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/Ethernet IP Connection Enabled/meta/type", "payload": "switch"}
+{"topic": "/devices/network/controls/Ethernet IP Connection Enabled/meta/order", "payload": "6"}
+{"topic": "/devices/network/controls/Ethernet IP Connection Enabled/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/Ethernet IP Online Status/meta/type", "payload": "switch"}
+{"topic": "/devices/network/controls/Ethernet IP Online Status/meta/order", "payload": "5"}
+{"topic": "/devices/network/controls/Ethernet IP Online Status/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/GPRS IP/meta/order", "payload": "16"}
+{"topic": "/devices/network/controls/GPRS IP/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/GPRS IP/meta/type", "payload": "text"}
+{"topic": "/devices/network/controls/GPRS IP Connection Enabled/meta/type", "payload": "switch"}
+{"topic": "/devices/network/controls/GPRS IP Connection Enabled/meta/order", "payload": "18"}
+{"topic": "/devices/network/controls/GPRS IP Connection Enabled/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/GPRS IP Online Status/meta/type", "payload": "switch"}
+{"topic": "/devices/network/controls/GPRS IP Online Status/meta/order", "payload": "17"}
+{"topic": "/devices/network/controls/GPRS IP Online Status/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/Internet Connection/meta/type", "payload": "text"}
+{"topic": "/devices/network/controls/Internet Connection/meta/order", "payload": "3"}
+{"topic": "/devices/network/controls/Internet Connection/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP/meta/type", "payload": "text"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP/meta/order", "payload": "13"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP Connection Enabled/meta/order", "payload": "15"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP Connection Enabled/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP Connection Enabled/meta/type", "payload": "switch"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP Online Status/meta/order", "payload": "14"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP Online Status/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP Online Status/meta/type", "payload": "switch"}
+{"topic": "/devices/network/controls/Wi-Fi IP/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/Wi-Fi IP/meta/type", "payload": "text"}
+{"topic": "/devices/network/controls/Wi-Fi IP/meta/order", "payload": "10"}
+{"topic": "/devices/network/controls/Wi-Fi IP Connection Enabled/meta/type", "payload": "switch"}
+{"topic": "/devices/network/controls/Wi-Fi IP Connection Enabled/meta/order", "payload": "12"}
+{"topic": "/devices/network/controls/Wi-Fi IP Connection Enabled/meta/readonly", "payload": "1"}
+{"topic": "/devices/network/controls/Wi-Fi IP Online Status/meta/type", "payload": "switch"}
+{"topic": "/devices/network/controls/Wi-Fi IP Online Status/meta/order", "payload": "11"}
+{"topic": "/devices/network/controls/Wi-Fi IP Online Status/meta/readonly", "payload": "1"}
+{"topic": "/devices/hwmon/controls/Board Temperature/meta/type", "payload": "temperature"}
+{"topic": "/devices/hwmon/controls/Board Temperature/meta/order", "payload": "2"}
+{"topic": "/devices/hwmon/controls/Board Temperature/meta/readonly", "payload": "1"}
+{"topic": "/devices/hwmon/controls/CPU Temperature/meta/readonly", "payload": "1"}
+{"topic": "/devices/hwmon/controls/CPU Temperature/meta/type", "payload": "temperature"}
+{"topic": "/devices/hwmon/controls/CPU Temperature/meta/order", "payload": "3"}
+{"topic": "/devices/metrics/controls/load_average_1min/meta/type", "payload": "value"}
+{"topic": "/devices/metrics/controls/load_average_1min/meta/readonly", "payload": "1"}
+{"topic": "/devices/metrics/controls/load_average_1min/meta/units", "payload": "tasks"}
+{"topic": "/devices/metrics/controls/load_average_1min/meta/min", "payload": "0"}
+{"topic": "/devices/metrics/controls/load_average_5min/meta/type", "payload": "value"}
+{"topic": "/devices/metrics/controls/load_average_5min/meta/readonly", "payload": "1"}
+{"topic": "/devices/metrics/controls/load_average_5min/meta/units", "payload": "tasks"}
+{"topic": "/devices/metrics/controls/load_average_5min/meta/min", "payload": "0"}
+{"topic": "/devices/metrics/controls/load_average_15min/meta/type", "payload": "value"}
+{"topic": "/devices/metrics/controls/load_average_15min/meta/readonly", "payload": "1"}
+{"topic": "/devices/metrics/controls/load_average_15min/meta/units", "payload": "tasks"}
+{"topic": "/devices/metrics/controls/load_average_15min/meta/min", "payload": "0"}
+{"topic": "/devices/metrics/controls/ram_available/meta/type", "payload": "value"}
+{"topic": "/devices/metrics/controls/ram_available/meta/readonly", "payload": "1"}
+{"topic": "/devices/metrics/controls/ram_available/meta/units", "payload": "MiB"}
+{"topic": "/devices/metrics/controls/ram_available/meta/min", "payload": "0"}
+{"topic": "/devices/metrics/controls/ram_used/meta/type", "payload": "value"}
+{"topic": "/devices/metrics/controls/ram_used/meta/readonly", "payload": "1"}
+{"topic": "/devices/metrics/controls/ram_used/meta/units", "payload": "MiB"}
+{"topic": "/devices/metrics/controls/ram_used/meta/min", "payload": "0"}
+{"topic": "/devices/metrics/controls/ram_total/meta/type", "payload": "value"}
+{"topic": "/devices/metrics/controls/ram_total/meta/readonly", "payload": "1"}
+{"topic": "/devices/metrics/controls/ram_total/meta/units", "payload": "MiB"}
+{"topic": "/devices/metrics/controls/ram_total/meta/min", "payload": "0"}
+{"topic": "/devices/metrics/controls/swap_total/meta/type", "payload": "value"}
+{"topic": "/devices/metrics/controls/swap_total/meta/readonly", "payload": "1"}
+{"topic": "/devices/metrics/controls/swap_total/meta/units", "payload": "MiB"}
+{"topic": "/devices/metrics/controls/swap_total/meta/min", "payload": "0"}
+{"topic": "/devices/metrics/controls/swap_used/meta/type", "payload": "value"}
+{"topic": "/devices/metrics/controls/swap_used/meta/readonly", "payload": "1"}
+{"topic": "/devices/metrics/controls/swap_used/meta/units", "payload": "MiB"}
+{"topic": "/devices/metrics/controls/swap_used/meta/min", "payload": "0"}
+{"topic": "/devices/metrics/controls/dev_root_used_space/meta/type", "payload": "value"}
+{"topic": "/devices/metrics/controls/dev_root_used_space/meta/readonly", "payload": "1"}
+{"topic": "/devices/metrics/controls/dev_root_used_space/meta/units", "payload": "MiB"}
+{"topic": "/devices/metrics/controls/dev_root_used_space/meta/min", "payload": "0"}
+{"topic": "/devices/metrics/controls/data_used_space/meta/type", "payload": "value"}
+{"topic": "/devices/metrics/controls/data_used_space/meta/readonly", "payload": "1"}
+{"topic": "/devices/metrics/controls/data_used_space/meta/units", "payload": "MiB"}
+{"topic": "/devices/metrics/controls/data_used_space/meta/min", "payload": "0"}
+{"topic": "/devices/metrics/controls/dev_root_total_space/meta/type", "payload": "value"}
+{"topic": "/devices/metrics/controls/dev_root_total_space/meta/readonly", "payload": "1"}
+{"topic": "/devices/metrics/controls/dev_root_total_space/meta/units", "payload": "MiB"}
+{"topic": "/devices/metrics/controls/dev_root_total_space/meta/min", "payload": "0"}
+{"topic": "/devices/metrics/controls/dev_root_linked_on/meta/type", "payload": "text"}
+{"topic": "/devices/metrics/controls/dev_root_linked_on/meta/readonly", "payload": "1"}
+{"topic": "/devices/metrics/controls/data_total_space/meta/type", "payload": "value"}
+{"topic": "/devices/metrics/controls/data_total_space/meta/readonly", "payload": "1"}
+{"topic": "/devices/metrics/controls/data_total_space/meta/units", "payload": "MiB"}
+{"topic": "/devices/metrics/controls/data_total_space/meta/min", "payload": "0"}
+{"topic": "/devices/power_status/controls/Vin/meta/readonly", "payload": "1"}
+{"topic": "/devices/power_status/controls/Vin/meta/type", "payload": "voltage"}
+{"topic": "/devices/power_status/controls/Vin/meta/order", "payload": "1"}
+{"topic": "/devices/power_status/controls/working on battery/meta/order", "payload": "2"}
+{"topic": "/devices/power_status/controls/working on battery/meta/readonly", "payload": "1"}
+{"topic": "/devices/power_status/controls/working on battery/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-gpio/controls/A1_OUT/meta/order", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A1_OUT/meta/readonly", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A1_OUT/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-gpio/controls/A2_OUT/meta/order", "payload": "2"}
+{"topic": "/devices/wb-gpio/controls/A2_OUT/meta/readonly", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A2_OUT/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-gpio/controls/A3_OUT/meta/order", "payload": "3"}
+{"topic": "/devices/wb-gpio/controls/A3_OUT/meta/readonly", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A3_OUT/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-gpio/controls/A4_OUT/meta/order", "payload": "4"}
+{"topic": "/devices/wb-gpio/controls/A4_OUT/meta/readonly", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A4_OUT/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-gpio/controls/A1_IN/meta/order", "payload": "5"}
+{"topic": "/devices/wb-gpio/controls/A1_IN/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A1_IN/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-gpio/controls/A2_IN/meta/order", "payload": "6"}
+{"topic": "/devices/wb-gpio/controls/A2_IN/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A2_IN/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-gpio/controls/A3_IN/meta/order", "payload": "7"}
+{"topic": "/devices/wb-gpio/controls/A3_IN/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A3_IN/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-gpio/controls/A4_IN/meta/order", "payload": "8"}
+{"topic": "/devices/wb-gpio/controls/A4_IN/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A4_IN/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-gpio/controls/5V_OUT/meta/order", "payload": "9"}
+{"topic": "/devices/wb-gpio/controls/5V_OUT/meta/readonly", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/5V_OUT/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-gpio/controls/V_OUT/meta/order", "payload": "10"}
+{"topic": "/devices/wb-gpio/controls/V_OUT/meta/readonly", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/V_OUT/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-gpio/controls/MOD1_OUT1/meta/order", "payload": "11"}
+{"topic": "/devices/wb-gpio/controls/MOD1_OUT1/meta/readonly", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/MOD1_OUT1/meta/type", "payload": "switch"}
+{"topic": "/devices/knx/controls/data/meta/order", "payload": "0"}
+{"topic": "/devices/knx/controls/data/meta/readonly", "payload": "0"}
+{"topic": "/devices/knx/controls/data/meta/type", "payload": "text"}
+{"topic": "/devices/wb-adc/controls/A1/meta/order", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/A1/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/A1/meta/type", "payload": "voltage"}
+{"topic": "/devices/wb-adc/controls/A2/meta/order", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/A2/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/A2/meta/type", "payload": "voltage"}
+{"topic": "/devices/wb-adc/controls/A3/meta/order", "payload": "2"}
+{"topic": "/devices/wb-adc/controls/A3/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/A3/meta/type", "payload": "voltage"}
+{"topic": "/devices/wb-adc/controls/A4/meta/order", "payload": "3"}
+{"topic": "/devices/wb-adc/controls/A4/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/A4/meta/type", "payload": "voltage"}
+{"topic": "/devices/wb-adc/controls/Vin/meta/order", "payload": "4"}
+{"topic": "/devices/wb-adc/controls/Vin/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/Vin/meta/type", "payload": "voltage"}
+{"topic": "/devices/wb-adc/controls/V3_3/meta/order", "payload": "5"}
+{"topic": "/devices/wb-adc/controls/V3_3/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/V3_3/meta/type", "payload": "voltage"}
+{"topic": "/devices/wb-adc/controls/V5_0/meta/order", "payload": "6"}
+{"topic": "/devices/wb-adc/controls/V5_0/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/V5_0/meta/type", "payload": "voltage"}
+{"topic": "/devices/wb-adc/controls/Vbus_debug/meta/order", "payload": "7"}
+{"topic": "/devices/wb-adc/controls/Vbus_debug/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/Vbus_debug/meta/type", "payload": "voltage"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0/meta/order", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0 counter/meta/order", "payload": "2"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0 counter/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0 counter/meta/type", "payload": "value"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1/meta/order", "payload": "3"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1 counter/meta/order", "payload": "4"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1 counter/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1 counter/meta/type", "payload": "value"}
+{"topic": "/devices/wb-mr3_16/controls/Input 2/meta/order", "payload": "5"}
+{"topic": "/devices/wb-mr3_16/controls/Input 2/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 2/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-mr3_16/controls/Input 2 counter/meta/order", "payload": "6"}
+{"topic": "/devices/wb-mr3_16/controls/Input 2 counter/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 2 counter/meta/type", "payload": "value"}
+{"topic": "/devices/wb-mr3_16/controls/Input 3/meta/order", "payload": "7"}
+{"topic": "/devices/wb-mr3_16/controls/Input 3/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 3/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-mr3_16/controls/Input 3 counter/meta/order", "payload": "8"}
+{"topic": "/devices/wb-mr3_16/controls/Input 3 counter/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 3 counter/meta/type", "payload": "value"}
+{"topic": "/devices/wb-mr3_16/controls/K1/meta/order", "payload": "9"}
+{"topic": "/devices/wb-mr3_16/controls/K1/meta/readonly", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/K1/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-mr3_16/controls/K2/meta/order", "payload": "10"}
+{"topic": "/devices/wb-mr3_16/controls/K2/meta/readonly", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/K2/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-mr3_16/controls/K3/meta/order", "payload": "11"}
+{"topic": "/devices/wb-mr3_16/controls/K3/meta/readonly", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/K3/meta/type", "payload": "switch"}
+{"topic": "/devices/wb-mr3_16/controls/Serial/meta/order", "payload": "12"}
+{"topic": "/devices/wb-mr3_16/controls/Serial/meta/readonly", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Serial/meta/type", "payload": "text"}
+{"topic": "/devices/system/controls/Batch No/meta/type", "payload": "text"}
+{"topic": "/devices/system/controls/Batch No/meta/order", "payload": "1"}
+{"topic": "/devices/system/controls/Batch No/meta/readonly", "payload": "1"}
+{"topic": "/devices/system/controls/Current uptime/meta/type", "payload": "text"}
+{"topic": "/devices/system/controls/Current uptime/meta/order", "payload": "2"}
+{"topic": "/devices/system/controls/Current uptime/meta/readonly", "payload": "1"}
+{"topic": "/devices/system/controls/DTS Version/meta/type", "payload": "text"}
+{"topic": "/devices/system/controls/DTS Version/meta/order", "payload": "3"}
+{"topic": "/devices/system/controls/DTS Version/meta/readonly", "payload": "1"}
+{"topic": "/devices/system/controls/HW Revision/meta/order", "payload": "4"}
+{"topic": "/devices/system/controls/HW Revision/meta/readonly", "payload": "1"}
+{"topic": "/devices/system/controls/HW Revision/meta/type", "payload": "text"}
+{"topic": "/devices/system/controls/Manufacturing Date/meta/type", "payload": "text"}
+{"topic": "/devices/system/controls/Manufacturing Date/meta/order", "payload": "5"}
+{"topic": "/devices/system/controls/Manufacturing Date/meta/readonly", "payload": "1"}
+{"topic": "/devices/system/controls/Reboot/meta/type", "payload": "pushbutton"}
+{"topic": "/devices/system/controls/Reboot/meta/order", "payload": "6"}
+{"topic": "/devices/system/controls/Reboot/meta/readonly", "payload": "0"}
+{"topic": "/devices/system/controls/Release name/meta/type", "payload": "text"}
+{"topic": "/devices/system/controls/Release name/meta/order", "payload": "7"}
+{"topic": "/devices/system/controls/Release name/meta/readonly", "payload": "1"}
+{"topic": "/devices/system/controls/Release suite/meta/order", "payload": "8"}
+{"topic": "/devices/system/controls/Release suite/meta/readonly", "payload": "1"}
+{"topic": "/devices/system/controls/Release suite/meta/type", "payload": "text"}
+{"topic": "/devices/system/controls/Short SN/meta/type", "payload": "text"}
+{"topic": "/devices/system/controls/Short SN/meta/order", "payload": "9"}
+{"topic": "/devices/system/controls/Short SN/meta/readonly", "payload": "1"}
+{"topic": "/devices/system/controls/Temperature Grade/meta/type", "payload": "text"}
+{"topic": "/devices/system/controls/Temperature Grade/meta/order", "payload": "10"}
+{"topic": "/devices/system/controls/Temperature Grade/meta/readonly", "payload": "1"}
+{"topic": "/devices/alarms/controls/log/meta/type", "payload": "text"}
+{"topic": "/devices/alarms/controls/log/meta/order", "payload": "1"}
+{"topic": "/devices/alarms/controls/log/meta/readonly", "payload": "1"}
+{"topic": "/devices/buzzer/controls/enabled", "payload": "0"}
+{"topic": "/devices/buzzer/controls/frequency", "payload": "600"}
+{"topic": "/devices/buzzer/controls/volume", "payload": "6"}
+{"topic": "/devices/network/controls/Active Connections", "payload": "[\"lo\",\"wb-eth0\"]"}
+{"topic": "/devices/network/controls/Default Interface", "payload": "eth0"}
+{"topic": "/devices/network/controls/Ethernet 2 IP Connection Enabled", "payload": "0"}
+{"topic": "/devices/network/controls/Ethernet 2 IP Online Status", "payload": "0"}
+{"topic": "/devices/network/controls/Ethernet IP", "payload": "192.168.1.53\n"}
+{"topic": "/devices/network/controls/Ethernet IP Connection Enabled", "payload": "1"}
+{"topic": "/devices/network/controls/Ethernet IP Online Status", "payload": "1"}
+{"topic": "/devices/network/controls/GPRS IP Connection Enabled", "payload": "0"}
+{"topic": "/devices/network/controls/GPRS IP Online Status", "payload": "0"}
+{"topic": "/devices/network/controls/Internet Connection", "payload": "wb-eth0"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP Connection Enabled", "payload": "0"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP Online Status", "payload": "0"}
+{"topic": "/devices/network/controls/Wi-Fi IP Connection Enabled", "payload": "0"}
+{"topic": "/devices/network/controls/Wi-Fi IP Online Status", "payload": "0"}
+{"topic": "/devices/hwmon/controls/Board Temperature", "payload": "41.72"}
+{"topic": "/devices/hwmon/controls/CPU Temperature", "payload": "50.687"}
+{"topic": "/devices/metrics/controls/load_average_1min", "payload": "0.18"}
+{"topic": "/devices/metrics/controls/load_average_5min", "payload": "0.22"}
+{"topic": "/devices/metrics/controls/load_average_15min", "payload": "0.33"}
+{"topic": "/devices/metrics/controls/ram_available", "payload": "1673"}
+{"topic": "/devices/metrics/controls/ram_used", "payload": "240"}
+{"topic": "/devices/metrics/controls/ram_total", "payload": "1986"}
+{"topic": "/devices/metrics/controls/swap_total", "payload": "255"}
+{"topic": "/devices/metrics/controls/swap_used", "payload": "0"}
+{"topic": "/devices/metrics/controls/dev_root_used_space", "payload": "819"}
+{"topic": "/devices/metrics/controls/data_used_space", "payload": "679"}
+{"topic": "/devices/metrics/controls/dev_root_total_space", "payload": "1946"}
+{"topic": "/devices/metrics/controls/dev_root_linked_on", "payload": "/dev/mmcblk0p2"}
+{"topic": "/devices/metrics/controls/data_total_space", "payload": "12284"}
+{"topic": "/devices/power_status/controls/Vin", "payload": "24"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/Name", "payload": "wb-eth1"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/UUID", "payload": "c3e38405-9c17-4155-ad70-664311b49066"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/Type", "payload": "802-3-ethernet"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/Active", "payload": "0"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/State", "payload": "deactivated"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/Connectivity", "payload": "0"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/Name", "payload": "wb-gsm-sim2"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/UUID", "payload": "8b9964d4-b8dd-34d3-a3ed-481840bcf8c9"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/Type", "payload": "gsm"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/Active", "payload": "0"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/State", "payload": "deactivated"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/Connectivity", "payload": "0"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/Name", "payload": "wb-gsm-sim1"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/UUID", "payload": "5d4297ba-c319-4c05-a153-17cb42e6e196"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/Type", "payload": "gsm"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/Active", "payload": "0"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/State", "payload": "deactivated"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/Connectivity", "payload": "0"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/Name", "payload": "wb-ap"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/UUID", "payload": "d12c8d3c-1abe-4832-9b71-4ed6e3c20885"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/Type", "payload": "802-11-wireless"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/Active", "payload": "0"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/State", "payload": "deactivated"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/Connectivity", "payload": "0"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Name", "payload": "wb-eth0"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/UUID", "payload": "91f1c71d-2d97-4675-886f-ecbe52b8451e"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Type", "payload": "802-3-ethernet"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Active", "payload": "1"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Device", "payload": "eth0"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/State", "payload": "activated"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Address", "payload": "192.168.1.53"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Connectivity", "payload": "1"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/Name", "payload": "wb-debug"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/UUID", "payload": "0f098677-2b49-4167-a534-207567b1751b"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/Type", "payload": "802-3-ethernet"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/Active", "payload": "0"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/State", "payload": "deactivated"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/Connectivity", "payload": "0"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Name", "payload": "lo"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/UUID", "payload": "79734455-3246-4224-a403-2375138c998c"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Type", "payload": "loopback"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Active", "payload": "1"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Device", "payload": "lo"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/State", "payload": "activated"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Address", "payload": "127.0.0.1"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Connectivity", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A1_OUT", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A2_OUT", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A3_OUT", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A4_OUT", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A1_IN", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A2_IN", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A3_IN", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A4_IN", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/5V_OUT", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/V_OUT", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/MOD1_OUT1", "payload": "0"}
+{"topic": "/devices/knx/controls/data", "payload": "i:0/0/0 i:0/0/0 GroupValueRead 0x00"}
+{"topic": "/devices/wb-adc/controls/A1", "payload": "0.0"}
+{"topic": "/devices/wb-adc/controls/A2", "payload": "0.0"}
+{"topic": "/devices/wb-adc/controls/A3", "payload": "0.0"}
+{"topic": "/devices/wb-adc/controls/A4", "payload": "0.0"}
+{"topic": "/devices/wb-adc/controls/Vin", "payload": "24.0"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.289"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.127"}
+{"topic": "/devices/wb-adc/controls/Vbus_debug", "payload": "1.78"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0 counter", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1 counter", "payload": "3"}
+{"topic": "/devices/wb-mr3_16/controls/Input 2", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 2 counter", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 3", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 3 counter", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/K1", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/K2", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/K3", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Serial", "payload": "250849"}
+{"topic": "/devices/system/controls/Batch No", "payload": "8.5.1D/2GR 1.2D-2G"}
+{"topic": "/devices/system/controls/Current uptime", "payload": "0d 16h 51m"}
+{"topic": "/devices/system/controls/DTS Version", "payload": "851\n"}
+{"topic": "/devices/system/controls/HW Revision", "payload": "8.5.1"}
+{"topic": "/devices/system/controls/Manufacturing Date", "payload": "2025-02-20 08:46:35"}
+{"topic": "/devices/system/controls/Release name", "payload": "wb-2501"}
+{"topic": "/devices/system/controls/Release suite", "payload": "stable"}
+{"topic": "/devices/system/controls/Short SN", "payload": "ABCDEFGH"}
+{"topic": "/devices/system/controls/Temperature Grade", "payload": "industrial"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.288"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.131"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.129"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.131"}
+{"topic": "/devices/power_status/controls/Vin", "payload": "23.9"}
+{"topic": "/devices/wb-adc/controls/Vin", "payload": "24.0"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.288"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.129"}
+{"topic": "/devices/power_status/controls/Vin", "payload": "24"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.289"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.131"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/metrics/controls/load_average_1min", "payload": "0.14"}
+{"topic": "/devices/metrics/controls/load_average_5min", "payload": "0.19"}
+{"topic": "/devices/metrics/controls/load_average_15min", "payload": "0.31"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.287"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.127"}
+{"topic": "/devices/metrics/controls/ram_available", "payload": "1676"}
+{"topic": "/devices/metrics/controls/ram_used", "payload": "237"}
+{"topic": "/devices/metrics/controls/swap_used", "payload": "0"}
+{"topic": "/devices/metrics/controls/dev_root_used_space", "payload": "819"}
+{"topic": "/devices/metrics/controls/data_used_space", "payload": "679"}
+{"topic": "/devices/wb-adc/controls/Vin", "payload": "23.9"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.288"}
+{"topic": "/devices/power_status/controls/Vin", "payload": "23.9"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/Vin", "payload": "24.0"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.289"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.129"}
+{"topic": "/devices/power_status/controls/Vin", "payload": "24"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/Vin", "payload": "23.9"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.287"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.127"}
+{"topic": "/devices/power_status/controls/Vin", "payload": "23.9"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/Vin", "payload": "24.0"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.289"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.129"}
+{"topic": "/devices/power_status/controls/Vin", "payload": "24"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1 counter", "payload": "4"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.287"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.131"}
+{"topic": "/devices/wb-mr3_16/controls/K2", "payload": "0"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0 counter", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.288"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.129"}
+{"topic": "/devices/wb-mr3_16/controls/K1", "payload": "1"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1 counter", "payload": "5"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.289"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.131"}
+{"topic": "/devices/metrics/controls/load_average_1min", "payload": "0.21"}
+{"topic": "/devices/metrics/controls/load_average_5min", "payload": "0.2"}
+{"topic": "/devices/metrics/controls/load_average_15min", "payload": "0.31"}
+{"topic": "/devices/metrics/controls/ram_available", "payload": "1676"}
+{"topic": "/devices/metrics/controls/ram_used", "payload": "237"}
+{"topic": "/devices/metrics/controls/swap_used", "payload": "0"}
+{"topic": "/devices/metrics/controls/dev_root_used_space", "payload": "819"}
+{"topic": "/devices/metrics/controls/data_used_space", "payload": "679"}
+{"topic": "/devices/wb-mr3_16/controls/K2", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/Vin", "payload": "23.9"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.288"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.129"}
+{"topic": "/devices/power_status/controls/Vin", "payload": "23.9"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/A1", "payload": "0.0"}
+{"topic": "/devices/wb-adc/controls/A2", "payload": "0.0"}
+{"topic": "/devices/wb-adc/controls/A3", "payload": "0.0"}
+{"topic": "/devices/wb-adc/controls/A4", "payload": "0.0"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.289"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.131"}
+{"topic": "/devices/hwmon/controls/CPU Temperature", "payload": "50.282"}
+{"topic": "/devices/hwmon/controls/Board Temperature", "payload": "41.69"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1 counter", "payload": "6"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1", "payload": "0"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/Vin", "payload": "24.0"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.129"}
+{"topic": "/devices/power_status/controls/Vin", "payload": "24"}
+{"topic": "/devices/wb-mr3_16/controls/K2", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0 counter", "payload": "2"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.288"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.131"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/K1", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1 counter", "payload": "7"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.287"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.127"}
+{"topic": "/devices/wb-mr3_16/controls/K2", "payload": "1"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.129"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.288"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.127"}
+{"topic": "/devices/metrics/controls/load_average_1min", "payload": "0.19"}
+{"topic": "/devices/metrics/controls/load_average_5min", "payload": "0.2"}
+{"topic": "/devices/metrics/controls/load_average_15min", "payload": "0.31"}
+{"topic": "/devices/metrics/controls/ram_available", "payload": "1675"}
+{"topic": "/devices/metrics/controls/ram_used", "payload": "238"}
+{"topic": "/devices/metrics/controls/swap_used", "payload": "0"}
+{"topic": "/devices/metrics/controls/dev_root_used_space", "payload": "819"}
+{"topic": "/devices/metrics/controls/data_used_space", "payload": "679"}
+{"topic": "/devices/wb-adc/controls/Vin", "payload": "23.9"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.285"}
+{"topic": "/devices/power_status/controls/Vin", "payload": "23.9"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/Vin", "payload": "24.0"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.289"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.133"}
+{"topic": "/devices/power_status/controls/Vin", "payload": "24"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.287"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.129"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.289"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.288"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.127"}
+{"topic": "/devices/wb-adc/controls/Vbus_debug", "payload": "1.78"}

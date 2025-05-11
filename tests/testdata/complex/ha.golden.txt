@@ -1,0 +1,380 @@
+{"topic": "/devices/network/controls/Active Connections", "payload": "[\"lo\",\"wb-eth0\"]"}
+{"topic": "/devices/network/controls/Default Interface", "payload": "eth0"}
+{"topic": "/devices/network/controls/Ethernet 2 IP Connection Enabled", "payload": "0"}
+{"topic": "/devices/network/controls/Ethernet 2 IP Online Status", "payload": "0"}
+{"topic": "/devices/network/controls/Ethernet IP", "payload": "192.168.1.53\n"}
+{"topic": "/devices/network/controls/Ethernet IP Connection Enabled", "payload": "1"}
+{"topic": "/devices/network/controls/Ethernet IP Online Status", "payload": "1"}
+{"topic": "/devices/network/controls/GPRS IP Connection Enabled", "payload": "0"}
+{"topic": "/devices/network/controls/GPRS IP Online Status", "payload": "0"}
+{"topic": "/devices/network/controls/Internet Connection", "payload": "wb-eth0"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP Connection Enabled", "payload": "0"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP Online Status", "payload": "0"}
+{"topic": "/devices/network/controls/Wi-Fi IP Connection Enabled", "payload": "0"}
+{"topic": "/devices/network/controls/Wi-Fi IP Online Status", "payload": "0"}
+{"topic": "/devices/metrics/controls/ram_total", "payload": "1986"}
+{"topic": "/devices/metrics/controls/swap_total", "payload": "255"}
+{"topic": "/devices/metrics/controls/dev_root_total_space", "payload": "1946"}
+{"topic": "/devices/metrics/controls/dev_root_linked_on", "payload": "/dev/mmcblk0p2"}
+{"topic": "/devices/metrics/controls/data_total_space", "payload": "12284"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Name", "payload": "lo"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/UUID", "payload": "79734455-3246-4224-a403-2375138c998c"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Type", "payload": "loopback"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Active", "payload": "1"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Device", "payload": "lo"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/State", "payload": "activated"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Address", "payload": "127.0.0.1"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Connectivity", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A1_OUT", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A2_OUT", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A3_OUT", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A4_OUT", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A1_IN", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A2_IN", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A3_IN", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A4_IN", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/5V_OUT", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/V_OUT", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/MOD1_OUT1", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 2", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 2 counter", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 3", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 3 counter", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/K3", "payload": "0"}
+{"topic": "/devices/system/controls/Batch No", "payload": "8.5.1D/2GR 1.2D-2G"}
+{"topic": "/devices/system/controls/Current uptime", "payload": "0d 16h 51m"}
+{"topic": "/devices/system/controls/DTS Version", "payload": "851\n"}
+{"topic": "/devices/system/controls/Manufacturing Date", "payload": "2025-02-20 08:46:35"}
+{"topic": "/devices/system/controls/Release suite", "payload": "stable"}
+{"topic": "/devices/system/controls/Temperature Grade", "payload": "industrial"}
+{"topic": "/devices/wb-adc/controls/A1", "payload": "0.0"}
+{"topic": "/devices/wb-adc/controls/A2", "payload": "0.0"}
+{"topic": "/devices/wb-adc/controls/A3", "payload": "0.0"}
+{"topic": "/devices/wb-adc/controls/A4", "payload": "0.0"}
+{"topic": "/devices/hwmon/controls/CPU Temperature", "payload": "50.282"}
+{"topic": "/devices/hwmon/controls/Board Temperature", "payload": "41.69"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0 counter", "payload": "2"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/K1", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1 counter", "payload": "7"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/K2", "payload": "1"}
+{"topic": "/devices/metrics/controls/load_average_1min", "payload": "0.19"}
+{"topic": "/devices/metrics/controls/load_average_5min", "payload": "0.2"}
+{"topic": "/devices/metrics/controls/load_average_15min", "payload": "0.31"}
+{"topic": "/devices/metrics/controls/ram_available", "payload": "1675"}
+{"topic": "/devices/metrics/controls/ram_used", "payload": "238"}
+{"topic": "/devices/metrics/controls/swap_used", "payload": "0"}
+{"topic": "/devices/metrics/controls/dev_root_used_space", "payload": "819"}
+{"topic": "/devices/metrics/controls/data_used_space", "payload": "679"}
+{"topic": "/devices/power_status/controls/Vin", "payload": "24"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.288"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.127"}
+{"topic": "/devices/wb-adc/controls/Vbus_debug", "payload": "1.78"}
+{"topic": "/devices/wbrules/controls/Rule debugging/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Active Connections/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Active Connections", "payload": "[\"lo\",\"wb-eth0\"]"}
+{"topic": "/devices/network/controls/Default Interface/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Default Interface", "payload": "eth0"}
+{"topic": "/devices/network/controls/Ethernet 2 IP/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Ethernet 2 IP Connection Enabled/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Ethernet 2 IP Connection Enabled", "payload": "0"}
+{"topic": "/devices/network/controls/Ethernet 2 IP Online Status/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Ethernet 2 IP Online Status", "payload": "0"}
+{"topic": "/devices/network/controls/Ethernet IP/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Ethernet IP", "payload": "192.168.1.53\n"}
+{"topic": "/devices/network/controls/Ethernet IP Connection Enabled/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Ethernet IP Connection Enabled", "payload": "1"}
+{"topic": "/devices/network/controls/Ethernet IP Online Status/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Ethernet IP Online Status", "payload": "1"}
+{"topic": "/devices/network/controls/GPRS IP/availability", "payload": "1"}
+{"topic": "/devices/network/controls/GPRS IP Connection Enabled/availability", "payload": "1"}
+{"topic": "/devices/network/controls/GPRS IP Connection Enabled", "payload": "0"}
+{"topic": "/devices/network/controls/GPRS IP Online Status/availability", "payload": "1"}
+{"topic": "/devices/network/controls/GPRS IP Online Status", "payload": "0"}
+{"topic": "/devices/network/controls/Internet Connection/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Internet Connection", "payload": "wb-eth0"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP Connection Enabled/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP Connection Enabled", "payload": "0"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP Online Status/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Wi-Fi 2 IP Online Status", "payload": "0"}
+{"topic": "/devices/network/controls/Wi-Fi IP/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Wi-Fi IP Connection Enabled/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Wi-Fi IP Connection Enabled", "payload": "0"}
+{"topic": "/devices/network/controls/Wi-Fi IP Online Status/availability", "payload": "1"}
+{"topic": "/devices/network/controls/Wi-Fi IP Online Status", "payload": "0"}
+{"topic": "/devices/hwmon/controls/Board Temperature/availability", "payload": "1"}
+{"topic": "/devices/hwmon/controls/Board Temperature", "payload": "41.69"}
+{"topic": "/devices/hwmon/controls/CPU Temperature/availability", "payload": "1"}
+{"topic": "/devices/hwmon/controls/CPU Temperature", "payload": "50.282"}
+{"topic": "/devices/metrics/controls/load_average_1min/availability", "payload": "1"}
+{"topic": "/devices/metrics/controls/load_average_1min", "payload": "0.19"}
+{"topic": "/devices/metrics/controls/load_average_5min/availability", "payload": "1"}
+{"topic": "/devices/metrics/controls/load_average_5min", "payload": "0.2"}
+{"topic": "/devices/metrics/controls/load_average_15min/availability", "payload": "1"}
+{"topic": "/devices/metrics/controls/load_average_15min", "payload": "0.31"}
+{"topic": "/devices/metrics/controls/ram_available/availability", "payload": "1"}
+{"topic": "/devices/metrics/controls/ram_available", "payload": "1675"}
+{"topic": "/devices/metrics/controls/ram_used/availability", "payload": "1"}
+{"topic": "/devices/metrics/controls/ram_used", "payload": "238"}
+{"topic": "/devices/metrics/controls/ram_total/availability", "payload": "1"}
+{"topic": "/devices/metrics/controls/ram_total", "payload": "1986"}
+{"topic": "/devices/metrics/controls/swap_total/availability", "payload": "1"}
+{"topic": "/devices/metrics/controls/swap_total", "payload": "255"}
+{"topic": "/devices/metrics/controls/swap_used/availability", "payload": "1"}
+{"topic": "/devices/metrics/controls/swap_used", "payload": "0"}
+{"topic": "/devices/metrics/controls/dev_root_used_space/availability", "payload": "1"}
+{"topic": "/devices/metrics/controls/dev_root_used_space", "payload": "819"}
+{"topic": "/devices/metrics/controls/data_used_space/availability", "payload": "1"}
+{"topic": "/devices/metrics/controls/data_used_space", "payload": "679"}
+{"topic": "/devices/metrics/controls/dev_root_total_space/availability", "payload": "1"}
+{"topic": "/devices/metrics/controls/dev_root_total_space", "payload": "1946"}
+{"topic": "/devices/metrics/controls/dev_root_linked_on/availability", "payload": "1"}
+{"topic": "/devices/metrics/controls/dev_root_linked_on", "payload": "/dev/mmcblk0p2"}
+{"topic": "/devices/metrics/controls/data_total_space/availability", "payload": "1"}
+{"topic": "/devices/metrics/controls/data_total_space", "payload": "12284"}
+{"topic": "/devices/power_status/controls/Vin/availability", "payload": "1"}
+{"topic": "/devices/power_status/controls/Vin", "payload": "24"}
+{"topic": "/devices/power_status/controls/working on battery/availability", "payload": "1"}
+{"topic": "/devices/power_status/controls/working on battery", "payload": "0"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/Name/availability", "payload": "1"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/Name", "payload": "wb-eth1"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/UUID/availability", "payload": "1"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/UUID", "payload": "c3e38405-9c17-4155-ad70-664311b49066"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/Type/availability", "payload": "1"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/Type", "payload": "802-3-ethernet"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/Active/availability", "payload": "1"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/Active", "payload": "0"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/State/availability", "payload": "1"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/State", "payload": "deactivated"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/Connectivity/availability", "payload": "1"}
+{"topic": "/devices/system__networks__c3e38405-9c17-4155-ad70-664311b49066/controls/Connectivity", "payload": "0"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/Name/availability", "payload": "1"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/Name", "payload": "wb-gsm-sim2"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/UUID/availability", "payload": "1"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/UUID", "payload": "8b9964d4-b8dd-34d3-a3ed-481840bcf8c9"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/Type/availability", "payload": "1"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/Type", "payload": "gsm"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/Active/availability", "payload": "1"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/Active", "payload": "0"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/State/availability", "payload": "1"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/State", "payload": "deactivated"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/Connectivity/availability", "payload": "1"}
+{"topic": "/devices/system__networks__8b9964d4-b8dd-34d3-a3ed-481840bcf8c9/controls/Connectivity", "payload": "0"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/Name/availability", "payload": "1"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/Name", "payload": "wb-gsm-sim1"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/UUID/availability", "payload": "1"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/UUID", "payload": "5d4297ba-c319-4c05-a153-17cb42e6e196"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/Type/availability", "payload": "1"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/Type", "payload": "gsm"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/Active/availability", "payload": "1"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/Active", "payload": "0"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/State/availability", "payload": "1"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/State", "payload": "deactivated"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/Connectivity/availability", "payload": "1"}
+{"topic": "/devices/system__networks__5d4297ba-c319-4c05-a153-17cb42e6e196/controls/Connectivity", "payload": "0"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/Name/availability", "payload": "1"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/Name", "payload": "wb-ap"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/UUID/availability", "payload": "1"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/UUID", "payload": "d12c8d3c-1abe-4832-9b71-4ed6e3c20885"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/Type/availability", "payload": "1"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/Type", "payload": "802-11-wireless"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/Active/availability", "payload": "1"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/Active", "payload": "0"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/State/availability", "payload": "1"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/State", "payload": "deactivated"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/Connectivity/availability", "payload": "1"}
+{"topic": "/devices/system__networks__d12c8d3c-1abe-4832-9b71-4ed6e3c20885/controls/Connectivity", "payload": "0"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Name/availability", "payload": "1"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Name", "payload": "wb-eth0"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/UUID/availability", "payload": "1"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/UUID", "payload": "91f1c71d-2d97-4675-886f-ecbe52b8451e"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Type/availability", "payload": "1"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Type", "payload": "802-3-ethernet"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Active/availability", "payload": "1"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Active", "payload": "1"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Device/availability", "payload": "1"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Device", "payload": "eth0"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/State/availability", "payload": "1"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/State", "payload": "activated"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Address/availability", "payload": "1"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Address", "payload": "192.168.1.53"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Connectivity/availability", "payload": "1"}
+{"topic": "/devices/system__networks__91f1c71d-2d97-4675-886f-ecbe52b8451e/controls/Connectivity", "payload": "1"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/Name/availability", "payload": "1"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/Name", "payload": "wb-debug"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/UUID/availability", "payload": "1"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/UUID", "payload": "0f098677-2b49-4167-a534-207567b1751b"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/Type/availability", "payload": "1"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/Type", "payload": "802-3-ethernet"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/Active/availability", "payload": "1"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/Active", "payload": "0"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/State/availability", "payload": "1"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/State", "payload": "deactivated"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/Connectivity/availability", "payload": "1"}
+{"topic": "/devices/system__networks__0f098677-2b49-4167-a534-207567b1751b/controls/Connectivity", "payload": "0"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Name/availability", "payload": "1"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Name", "payload": "lo"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/UUID/availability", "payload": "1"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/UUID", "payload": "79734455-3246-4224-a403-2375138c998c"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Type/availability", "payload": "1"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Type", "payload": "loopback"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Active/availability", "payload": "1"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Active", "payload": "1"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Device/availability", "payload": "1"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Device", "payload": "lo"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/State/availability", "payload": "1"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/State", "payload": "activated"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Address/availability", "payload": "1"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Address", "payload": "127.0.0.1"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Connectivity/availability", "payload": "1"}
+{"topic": "/devices/system__networks__79734455-3246-4224-a403-2375138c998c/controls/Connectivity", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A1_OUT/availability", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A1_OUT", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A2_OUT/availability", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A2_OUT", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A3_OUT/availability", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A3_OUT", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A4_OUT/availability", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A4_OUT", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A1_IN/availability", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A1_IN", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A2_IN/availability", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A2_IN", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A3_IN/availability", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A3_IN", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/A4_IN/availability", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/A4_IN", "payload": "0"}
+{"topic": "/devices/wb-gpio/controls/5V_OUT/availability", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/5V_OUT", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/V_OUT/availability", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/V_OUT", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/MOD1_OUT1/availability", "payload": "1"}
+{"topic": "/devices/wb-gpio/controls/MOD1_OUT1", "payload": "0"}
+{"topic": "/devices/wb-adc/controls/A1/availability", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/A1", "payload": "0.0"}
+{"topic": "/devices/wb-adc/controls/A2/availability", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/A2", "payload": "0.0"}
+{"topic": "/devices/wb-adc/controls/A3/availability", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/A3", "payload": "0.0"}
+{"topic": "/devices/wb-adc/controls/A4/availability", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/A4", "payload": "0.0"}
+{"topic": "/devices/wb-adc/controls/Vin/availability", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/Vin", "payload": "24.0"}
+{"topic": "/devices/wb-adc/controls/V3_3/availability", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/V3_3", "payload": "3.288"}
+{"topic": "/devices/wb-adc/controls/V5_0/availability", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/V5_0", "payload": "5.127"}
+{"topic": "/devices/wb-adc/controls/Vbus_debug/availability", "payload": "1"}
+{"topic": "/devices/wb-adc/controls/Vbus_debug", "payload": "1.78"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0/availability", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0 counter/availability", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 0 counter", "payload": "2"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1/availability", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1 counter/availability", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 1 counter", "payload": "7"}
+{"topic": "/devices/wb-mr3_16/controls/Input 2/availability", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 2", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 2 counter/availability", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 2 counter", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 3/availability", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 3", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Input 3 counter/availability", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/Input 3 counter", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/K1/availability", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/K1", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/K2/availability", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/K2", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/K3/availability", "payload": "1"}
+{"topic": "/devices/wb-mr3_16/controls/K3", "payload": "0"}
+{"topic": "/devices/wb-mr3_16/controls/Serial/availability", "payload": "1"}
+{"topic": "/devices/system/controls/Batch No/availability", "payload": "1"}
+{"topic": "/devices/system/controls/Batch No", "payload": "8.5.1D/2GR 1.2D-2G"}
+{"topic": "/devices/system/controls/Current uptime/availability", "payload": "1"}
+{"topic": "/devices/system/controls/Current uptime", "payload": "0d 16h 51m"}
+{"topic": "/devices/system/controls/DTS Version/availability", "payload": "1"}
+{"topic": "/devices/system/controls/DTS Version", "payload": "851\n"}
+{"topic": "/devices/system/controls/Manufacturing Date/availability", "payload": "1"}
+{"topic": "/devices/system/controls/Manufacturing Date", "payload": "2025-02-20 08:46:35"}
+{"topic": "/devices/system/controls/Release suite/availability", "payload": "1"}
+{"topic": "/devices/system/controls/Release suite", "payload": "stable"}
+{"topic": "/devices/system/controls/Temperature Grade/availability", "payload": "1"}
+{"topic": "/devices/system/controls/Temperature Grade", "payload": "industrial"}
+{"topic": "/devices/alarms/controls/log/availability", "payload": "1"}
+{"topic": "homeassistant/switch/wirenboard/rule_debugging/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wbrules Rule Debugging\", \"unique_id\": \"wbrules_rule_debugging\", \"availability_topic\": \"/devices/wbrules/controls/Rule debugging/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_on\": \"1\", \"state_off\": \"0\", \"state_topic\": \"/devices/wbrules/controls/Rule debugging\", \"command_topic\": \"/devices/wbrules/controls/Rule debugging/on\"}"}
+{"topic": "homeassistant/sensor/wirenboard/active_connections/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Active Connections\", \"unique_id\": \"network_active_connections\", \"availability_topic\": \"/devices/network/controls/Active Connections/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/network/controls/Active Connections\"}"}
+{"topic": "homeassistant/sensor/wirenboard/default_interface/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Default Interface\", \"unique_id\": \"network_default_interface\", \"availability_topic\": \"/devices/network/controls/Default Interface/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/network/controls/Default Interface\"}"}
+{"topic": "homeassistant/sensor/wirenboard/ethernet_2_ip/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Ethernet 2 Ip\", \"unique_id\": \"network_ethernet_2_ip\", \"availability_topic\": \"/devices/network/controls/Ethernet 2 IP/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/network/controls/Ethernet 2 IP\"}"}
+{"topic": "homeassistant/binary_sensor/wirenboard/ethernet_2_ip_connection_enabled/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Ethernet 2 Ip Connection Enabled\", \"unique_id\": \"network_ethernet_2_ip_connection_enabled\", \"availability_topic\": \"/devices/network/controls/Ethernet 2 IP Connection Enabled/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/network/controls/Ethernet 2 IP Connection Enabled\"}"}
+{"topic": "homeassistant/binary_sensor/wirenboard/ethernet_2_ip_online_status/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Ethernet 2 Ip Online Status\", \"unique_id\": \"network_ethernet_2_ip_online_status\", \"availability_topic\": \"/devices/network/controls/Ethernet 2 IP Online Status/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/network/controls/Ethernet 2 IP Online Status\"}"}
+{"topic": "homeassistant/sensor/wirenboard/ethernet_ip/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Ethernet Ip\", \"unique_id\": \"network_ethernet_ip\", \"availability_topic\": \"/devices/network/controls/Ethernet IP/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/network/controls/Ethernet IP\"}"}
+{"topic": "homeassistant/binary_sensor/wirenboard/ethernet_ip_connection_enabled/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Ethernet Ip Connection Enabled\", \"unique_id\": \"network_ethernet_ip_connection_enabled\", \"availability_topic\": \"/devices/network/controls/Ethernet IP Connection Enabled/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/network/controls/Ethernet IP Connection Enabled\"}"}
+{"topic": "homeassistant/binary_sensor/wirenboard/ethernet_ip_online_status/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Ethernet Ip Online Status\", \"unique_id\": \"network_ethernet_ip_online_status\", \"availability_topic\": \"/devices/network/controls/Ethernet IP Online Status/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/network/controls/Ethernet IP Online Status\"}"}
+{"topic": "homeassistant/sensor/wirenboard/gprs_ip/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Gprs Ip\", \"unique_id\": \"network_gprs_ip\", \"availability_topic\": \"/devices/network/controls/GPRS IP/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/network/controls/GPRS IP\"}"}
+{"topic": "homeassistant/binary_sensor/wirenboard/gprs_ip_connection_enabled/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Gprs Ip Connection Enabled\", \"unique_id\": \"network_gprs_ip_connection_enabled\", \"availability_topic\": \"/devices/network/controls/GPRS IP Connection Enabled/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/network/controls/GPRS IP Connection Enabled\"}"}
+{"topic": "homeassistant/binary_sensor/wirenboard/gprs_ip_online_status/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Gprs Ip Online Status\", \"unique_id\": \"network_gprs_ip_online_status\", \"availability_topic\": \"/devices/network/controls/GPRS IP Online Status/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/network/controls/GPRS IP Online Status\"}"}
+{"topic": "homeassistant/sensor/wirenboard/internet_connection/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Internet Connection\", \"unique_id\": \"network_internet_connection\", \"availability_topic\": \"/devices/network/controls/Internet Connection/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/network/controls/Internet Connection\"}"}
+{"topic": "homeassistant/sensor/wirenboard/wi_fi_2_ip/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Wi-Fi 2 Ip\", \"unique_id\": \"network_wi_fi_2_ip\", \"availability_topic\": \"/devices/network/controls/Wi-Fi 2 IP/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/network/controls/Wi-Fi 2 IP\"}"}
+{"topic": "homeassistant/binary_sensor/wirenboard/wi_fi_2_ip_connection_enabled/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Wi-Fi 2 Ip Connection Enabled\", \"unique_id\": \"network_wi_fi_2_ip_connection_enabled\", \"availability_topic\": \"/devices/network/controls/Wi-Fi 2 IP Connection Enabled/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/network/controls/Wi-Fi 2 IP Connection Enabled\"}"}
+{"topic": "homeassistant/binary_sensor/wirenboard/wi_fi_2_ip_online_status/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Wi-Fi 2 Ip Online Status\", \"unique_id\": \"network_wi_fi_2_ip_online_status\", \"availability_topic\": \"/devices/network/controls/Wi-Fi 2 IP Online Status/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/network/controls/Wi-Fi 2 IP Online Status\"}"}
+{"topic": "homeassistant/sensor/wirenboard/wi_fi_ip/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Wi-Fi Ip\", \"unique_id\": \"network_wi_fi_ip\", \"availability_topic\": \"/devices/network/controls/Wi-Fi IP/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/network/controls/Wi-Fi IP\"}"}
+{"topic": "homeassistant/binary_sensor/wirenboard/wi_fi_ip_connection_enabled/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Wi-Fi Ip Connection Enabled\", \"unique_id\": \"network_wi_fi_ip_connection_enabled\", \"availability_topic\": \"/devices/network/controls/Wi-Fi IP Connection Enabled/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/network/controls/Wi-Fi IP Connection Enabled\"}"}
+{"topic": "homeassistant/binary_sensor/wirenboard/wi_fi_ip_online_status/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Network Wi-Fi Ip Online Status\", \"unique_id\": \"network_wi_fi_ip_online_status\", \"availability_topic\": \"/devices/network/controls/Wi-Fi IP Online Status/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/network/controls/Wi-Fi IP Online Status\"}"}
+{"topic": "homeassistant/sensor/wirenboard/board_temperature/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Hwmon Board Temperature\", \"unique_id\": \"hwmon_board_temperature\", \"availability_topic\": \"/devices/hwmon/controls/Board Temperature/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/hwmon/controls/Board Temperature\", \"device_class\": \"temperature\", \"unit_of_measurement\": \"\\u00b0C\"}"}
+{"topic": "homeassistant/sensor/wirenboard/cpu_temperature/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Hwmon Cpu Temperature\", \"unique_id\": \"hwmon_cpu_temperature\", \"availability_topic\": \"/devices/hwmon/controls/CPU Temperature/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/hwmon/controls/CPU Temperature\", \"device_class\": \"temperature\", \"unit_of_measurement\": \"\\u00b0C\"}"}
+{"topic": "homeassistant/sensor/wirenboard/load_average_1min/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Metrics Load Average 1Min\", \"unique_id\": \"metrics_load_average_1min\", \"availability_topic\": \"/devices/metrics/controls/load_average_1min/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/metrics/controls/load_average_1min\", \"unit_of_measurement\": \"tasks\"}"}
+{"topic": "homeassistant/sensor/wirenboard/load_average_5min/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Metrics Load Average 5Min\", \"unique_id\": \"metrics_load_average_5min\", \"availability_topic\": \"/devices/metrics/controls/load_average_5min/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/metrics/controls/load_average_5min\", \"unit_of_measurement\": \"tasks\"}"}
+{"topic": "homeassistant/sensor/wirenboard/load_average_15min/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Metrics Load Average 15Min\", \"unique_id\": \"metrics_load_average_15min\", \"availability_topic\": \"/devices/metrics/controls/load_average_15min/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/metrics/controls/load_average_15min\", \"unit_of_measurement\": \"tasks\"}"}
+{"topic": "homeassistant/sensor/wirenboard/ram_available/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Metrics Ram Available\", \"unique_id\": \"metrics_ram_available\", \"availability_topic\": \"/devices/metrics/controls/ram_available/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/metrics/controls/ram_available\", \"unit_of_measurement\": \"MiB\"}"}
+{"topic": "homeassistant/sensor/wirenboard/ram_used/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Metrics Ram Used\", \"unique_id\": \"metrics_ram_used\", \"availability_topic\": \"/devices/metrics/controls/ram_used/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/metrics/controls/ram_used\", \"unit_of_measurement\": \"MiB\"}"}
+{"topic": "homeassistant/sensor/wirenboard/ram_total/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Metrics Ram Total\", \"unique_id\": \"metrics_ram_total\", \"availability_topic\": \"/devices/metrics/controls/ram_total/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/metrics/controls/ram_total\", \"unit_of_measurement\": \"MiB\"}"}
+{"topic": "homeassistant/sensor/wirenboard/swap_total/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Metrics Swap Total\", \"unique_id\": \"metrics_swap_total\", \"availability_topic\": \"/devices/metrics/controls/swap_total/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/metrics/controls/swap_total\", \"unit_of_measurement\": \"MiB\"}"}
+{"topic": "homeassistant/sensor/wirenboard/swap_used/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Metrics Swap Used\", \"unique_id\": \"metrics_swap_used\", \"availability_topic\": \"/devices/metrics/controls/swap_used/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/metrics/controls/swap_used\", \"unit_of_measurement\": \"MiB\"}"}
+{"topic": "homeassistant/sensor/wirenboard/dev_root_used_space/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Metrics Dev Root Used Space\", \"unique_id\": \"metrics_dev_root_used_space\", \"availability_topic\": \"/devices/metrics/controls/dev_root_used_space/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/metrics/controls/dev_root_used_space\", \"unit_of_measurement\": \"MiB\"}"}
+{"topic": "homeassistant/sensor/wirenboard/data_used_space/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Metrics Data Used Space\", \"unique_id\": \"metrics_data_used_space\", \"availability_topic\": \"/devices/metrics/controls/data_used_space/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/metrics/controls/data_used_space\", \"unit_of_measurement\": \"MiB\"}"}
+{"topic": "homeassistant/sensor/wirenboard/dev_root_total_space/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Metrics Dev Root Total Space\", \"unique_id\": \"metrics_dev_root_total_space\", \"availability_topic\": \"/devices/metrics/controls/dev_root_total_space/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/metrics/controls/dev_root_total_space\", \"unit_of_measurement\": \"MiB\"}"}
+{"topic": "homeassistant/sensor/wirenboard/dev_root_linked_on/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Metrics Dev Root Linked On\", \"unique_id\": \"metrics_dev_root_linked_on\", \"availability_topic\": \"/devices/metrics/controls/dev_root_linked_on/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/metrics/controls/dev_root_linked_on\"}"}
+{"topic": "homeassistant/sensor/wirenboard/data_total_space/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Metrics Data Total Space\", \"unique_id\": \"metrics_data_total_space\", \"availability_topic\": \"/devices/metrics/controls/data_total_space/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/metrics/controls/data_total_space\", \"unit_of_measurement\": \"MiB\"}"}
+{"topic": "homeassistant/binary_sensor/wirenboard/working_on_battery/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Power Status Working On Battery\", \"unique_id\": \"power_status_working_on_battery\", \"availability_topic\": \"/devices/power_status/controls/working on battery/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/power_status/controls/working on battery\"}"}
+{"topic": "homeassistant/switch/wirenboard/a1_out/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Gpio A1 Out\", \"unique_id\": \"wb_gpio_a1_out\", \"availability_topic\": \"/devices/wb-gpio/controls/A1_OUT/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_on\": \"1\", \"state_off\": \"0\", \"state_topic\": \"/devices/wb-gpio/controls/A1_OUT\", \"command_topic\": \"/devices/wb-gpio/controls/A1_OUT/on\"}"}
+{"topic": "homeassistant/switch/wirenboard/a2_out/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Gpio A2 Out\", \"unique_id\": \"wb_gpio_a2_out\", \"availability_topic\": \"/devices/wb-gpio/controls/A2_OUT/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_on\": \"1\", \"state_off\": \"0\", \"state_topic\": \"/devices/wb-gpio/controls/A2_OUT\", \"command_topic\": \"/devices/wb-gpio/controls/A2_OUT/on\"}"}
+{"topic": "homeassistant/switch/wirenboard/a3_out/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Gpio A3 Out\", \"unique_id\": \"wb_gpio_a3_out\", \"availability_topic\": \"/devices/wb-gpio/controls/A3_OUT/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_on\": \"1\", \"state_off\": \"0\", \"state_topic\": \"/devices/wb-gpio/controls/A3_OUT\", \"command_topic\": \"/devices/wb-gpio/controls/A3_OUT/on\"}"}
+{"topic": "homeassistant/switch/wirenboard/a4_out/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Gpio A4 Out\", \"unique_id\": \"wb_gpio_a4_out\", \"availability_topic\": \"/devices/wb-gpio/controls/A4_OUT/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_on\": \"1\", \"state_off\": \"0\", \"state_topic\": \"/devices/wb-gpio/controls/A4_OUT\", \"command_topic\": \"/devices/wb-gpio/controls/A4_OUT/on\"}"}
+{"topic": "homeassistant/binary_sensor/wirenboard/a1_in/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Gpio A1 In\", \"unique_id\": \"wb_gpio_a1_in\", \"availability_topic\": \"/devices/wb-gpio/controls/A1_IN/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/wb-gpio/controls/A1_IN\"}"}
+{"topic": "homeassistant/binary_sensor/wirenboard/a2_in/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Gpio A2 In\", \"unique_id\": \"wb_gpio_a2_in\", \"availability_topic\": \"/devices/wb-gpio/controls/A2_IN/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/wb-gpio/controls/A2_IN\"}"}
+{"topic": "homeassistant/binary_sensor/wirenboard/a3_in/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Gpio A3 In\", \"unique_id\": \"wb_gpio_a3_in\", \"availability_topic\": \"/devices/wb-gpio/controls/A3_IN/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/wb-gpio/controls/A3_IN\"}"}
+{"topic": "homeassistant/binary_sensor/wirenboard/a4_in/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Gpio A4 In\", \"unique_id\": \"wb_gpio_a4_in\", \"availability_topic\": \"/devices/wb-gpio/controls/A4_IN/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/wb-gpio/controls/A4_IN\"}"}
+{"topic": "homeassistant/switch/wirenboard/5v_out/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Gpio 5V Out\", \"unique_id\": \"wb_gpio_5v_out\", \"availability_topic\": \"/devices/wb-gpio/controls/5V_OUT/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_on\": \"1\", \"state_off\": \"0\", \"state_topic\": \"/devices/wb-gpio/controls/5V_OUT\", \"command_topic\": \"/devices/wb-gpio/controls/5V_OUT/on\"}"}
+{"topic": "homeassistant/switch/wirenboard/v_out/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Gpio V Out\", \"unique_id\": \"wb_gpio_v_out\", \"availability_topic\": \"/devices/wb-gpio/controls/V_OUT/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_on\": \"1\", \"state_off\": \"0\", \"state_topic\": \"/devices/wb-gpio/controls/V_OUT\", \"command_topic\": \"/devices/wb-gpio/controls/V_OUT/on\"}"}
+{"topic": "homeassistant/switch/wirenboard/mod1_out1/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Gpio Mod1 Out1\", \"unique_id\": \"wb_gpio_mod1_out1\", \"availability_topic\": \"/devices/wb-gpio/controls/MOD1_OUT1/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_on\": \"1\", \"state_off\": \"0\", \"state_topic\": \"/devices/wb-gpio/controls/MOD1_OUT1\", \"command_topic\": \"/devices/wb-gpio/controls/MOD1_OUT1/on\"}"}
+{"topic": "homeassistant/sensor/wirenboard/a1/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Adc A1\", \"unique_id\": \"wb_adc_a1\", \"availability_topic\": \"/devices/wb-adc/controls/A1/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/wb-adc/controls/A1\", \"unit_of_measurement\": \"V\"}"}
+{"topic": "homeassistant/sensor/wirenboard/a2/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Adc A2\", \"unique_id\": \"wb_adc_a2\", \"availability_topic\": \"/devices/wb-adc/controls/A2/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/wb-adc/controls/A2\", \"unit_of_measurement\": \"V\"}"}
+{"topic": "homeassistant/sensor/wirenboard/a3/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Adc A3\", \"unique_id\": \"wb_adc_a3\", \"availability_topic\": \"/devices/wb-adc/controls/A3/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/wb-adc/controls/A3\", \"unit_of_measurement\": \"V\"}"}
+{"topic": "homeassistant/sensor/wirenboard/a4/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Adc A4\", \"unique_id\": \"wb_adc_a4\", \"availability_topic\": \"/devices/wb-adc/controls/A4/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/wb-adc/controls/A4\", \"unit_of_measurement\": \"V\"}"}
+{"topic": "homeassistant/sensor/wirenboard/vin/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Adc Vin\", \"unique_id\": \"wb_adc_vin\", \"availability_topic\": \"/devices/wb-adc/controls/Vin/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/wb-adc/controls/Vin\", \"unit_of_measurement\": \"V\"}"}
+{"topic": "homeassistant/sensor/wirenboard/v3_3/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Adc V3 3\", \"unique_id\": \"wb_adc_v3_3\", \"availability_topic\": \"/devices/wb-adc/controls/V3_3/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/wb-adc/controls/V3_3\", \"unit_of_measurement\": \"V\"}"}
+{"topic": "homeassistant/sensor/wirenboard/v5_0/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Adc V5 0\", \"unique_id\": \"wb_adc_v5_0\", \"availability_topic\": \"/devices/wb-adc/controls/V5_0/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/wb-adc/controls/V5_0\", \"unit_of_measurement\": \"V\"}"}
+{"topic": "homeassistant/sensor/wirenboard/vbus_debug/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Wb-Adc Vbus Debug\", \"unique_id\": \"wb_adc_vbus_debug\", \"availability_topic\": \"/devices/wb-adc/controls/Vbus_debug/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/wb-adc/controls/Vbus_debug\", \"unit_of_measurement\": \"V\"}"}
+{"topic": "homeassistant/binary_sensor/wb_mr3_16_input_0/input_0/config", "payload": "{\"device\": {\"name\": \"Wiren Board Wb-Mr3 16 Input 0\", \"identifiers\": \"wb_mr3_16_input_0\", \"manufacturer\": \"Wiren Board\", \"serial_number\": \"250849\"}, \"name\": \"Wb-Mr3 16 Input 0\", \"unique_id\": \"wb_mr3_16_input_0\", \"availability_topic\": \"/devices/wb-mr3_16/controls/Input 0/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/wb-mr3_16/controls/Input 0\"}"}
+{"topic": "homeassistant/sensor/wb_mr3_16_input_0_counter/input_0_counter/config", "payload": "{\"device\": {\"name\": \"Wiren Board Wb-Mr3 16 Input 0 Counter\", \"identifiers\": \"wb_mr3_16_input_0_counter\", \"manufacturer\": \"Wiren Board\", \"serial_number\": \"250849\"}, \"name\": \"Wb-Mr3 16 Input 0 Counter\", \"unique_id\": \"wb_mr3_16_input_0_counter\", \"availability_topic\": \"/devices/wb-mr3_16/controls/Input 0 counter/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/wb-mr3_16/controls/Input 0 counter\"}"}
+{"topic": "homeassistant/binary_sensor/wb_mr3_16_input_1/input_1/config", "payload": "{\"device\": {\"name\": \"Wiren Board Wb-Mr3 16 Input 1\", \"identifiers\": \"wb_mr3_16_input_1\", \"manufacturer\": \"Wiren Board\", \"serial_number\": \"250849\"}, \"name\": \"Wb-Mr3 16 Input 1\", \"unique_id\": \"wb_mr3_16_input_1\", \"availability_topic\": \"/devices/wb-mr3_16/controls/Input 1/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/wb-mr3_16/controls/Input 1\"}"}
+{"topic": "homeassistant/sensor/wb_mr3_16_input_1_counter/input_1_counter/config", "payload": "{\"device\": {\"name\": \"Wiren Board Wb-Mr3 16 Input 1 Counter\", \"identifiers\": \"wb_mr3_16_input_1_counter\", \"manufacturer\": \"Wiren Board\", \"serial_number\": \"250849\"}, \"name\": \"Wb-Mr3 16 Input 1 Counter\", \"unique_id\": \"wb_mr3_16_input_1_counter\", \"availability_topic\": \"/devices/wb-mr3_16/controls/Input 1 counter/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/wb-mr3_16/controls/Input 1 counter\"}"}
+{"topic": "homeassistant/binary_sensor/wb_mr3_16_input_2/input_2/config", "payload": "{\"device\": {\"name\": \"Wiren Board Wb-Mr3 16 Input 2\", \"identifiers\": \"wb_mr3_16_input_2\", \"manufacturer\": \"Wiren Board\", \"serial_number\": \"250849\"}, \"name\": \"Wb-Mr3 16 Input 2\", \"unique_id\": \"wb_mr3_16_input_2\", \"availability_topic\": \"/devices/wb-mr3_16/controls/Input 2/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/wb-mr3_16/controls/Input 2\"}"}
+{"topic": "homeassistant/sensor/wb_mr3_16_input_2_counter/input_2_counter/config", "payload": "{\"device\": {\"name\": \"Wiren Board Wb-Mr3 16 Input 2 Counter\", \"identifiers\": \"wb_mr3_16_input_2_counter\", \"manufacturer\": \"Wiren Board\", \"serial_number\": \"250849\"}, \"name\": \"Wb-Mr3 16 Input 2 Counter\", \"unique_id\": \"wb_mr3_16_input_2_counter\", \"availability_topic\": \"/devices/wb-mr3_16/controls/Input 2 counter/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/wb-mr3_16/controls/Input 2 counter\"}"}
+{"topic": "homeassistant/binary_sensor/wb_mr3_16_input_3/input_3/config", "payload": "{\"device\": {\"name\": \"Wiren Board Wb-Mr3 16 Input 3\", \"identifiers\": \"wb_mr3_16_input_3\", \"manufacturer\": \"Wiren Board\", \"serial_number\": \"250849\"}, \"name\": \"Wb-Mr3 16 Input 3\", \"unique_id\": \"wb_mr3_16_input_3\", \"availability_topic\": \"/devices/wb-mr3_16/controls/Input 3/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_topic\": \"/devices/wb-mr3_16/controls/Input 3\"}"}
+{"topic": "homeassistant/sensor/wb_mr3_16_input_3_counter/input_3_counter/config", "payload": "{\"device\": {\"name\": \"Wiren Board Wb-Mr3 16 Input 3 Counter\", \"identifiers\": \"wb_mr3_16_input_3_counter\", \"manufacturer\": \"Wiren Board\", \"serial_number\": \"250849\"}, \"name\": \"Wb-Mr3 16 Input 3 Counter\", \"unique_id\": \"wb_mr3_16_input_3_counter\", \"availability_topic\": \"/devices/wb-mr3_16/controls/Input 3 counter/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/wb-mr3_16/controls/Input 3 counter\"}"}
+{"topic": "homeassistant/switch/light_switch_1/k1/config", "payload": "{\"device\": {\"name\": \"Light Switch 1 WB-MR3 16\", \"identifiers\": \"light_switch_1\", \"manufacturer\": \"Wiren Board\", \"serial_number\": \"250849\"}, \"name\": \"Wb-Mr3 16 K1\", \"unique_id\": \"wb_mr3_16_k1\", \"availability_topic\": \"/devices/wb-mr3_16/controls/K1/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_on\": \"1\", \"state_off\": \"0\", \"state_topic\": \"/devices/wb-mr3_16/controls/K1\", \"command_topic\": \"/devices/wb-mr3_16/controls/K1/on\"}"}
+{"topic": "homeassistant/switch/wb_mr3_16_k2/k2/config", "payload": "{\"device\": {\"name\": \"Wiren Board Wb-Mr3 16 K2\", \"identifiers\": \"wb_mr3_16_k2\", \"manufacturer\": \"Wiren Board\", \"serial_number\": \"250849\"}, \"name\": \"Wb-Mr3 16 K2\", \"unique_id\": \"wb_mr3_16_k2\", \"availability_topic\": \"/devices/wb-mr3_16/controls/K2/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_on\": \"1\", \"state_off\": \"0\", \"state_topic\": \"/devices/wb-mr3_16/controls/K2\", \"command_topic\": \"/devices/wb-mr3_16/controls/K2/on\"}"}
+{"topic": "homeassistant/switch/wb_mr3_16_k3/k3/config", "payload": "{\"device\": {\"name\": \"Wiren Board Wb-Mr3 16 K3\", \"identifiers\": \"wb_mr3_16_k3\", \"manufacturer\": \"Wiren Board\", \"serial_number\": \"250849\"}, \"name\": \"Wb-Mr3 16 K3\", \"unique_id\": \"wb_mr3_16_k3\", \"availability_topic\": \"/devices/wb-mr3_16/controls/K3/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"payload_on\": \"1\", \"payload_off\": \"0\", \"state_on\": \"1\", \"state_off\": \"0\", \"state_topic\": \"/devices/wb-mr3_16/controls/K3\", \"command_topic\": \"/devices/wb-mr3_16/controls/K3/on\"}"}
+{"topic": "homeassistant/sensor/wb_mr3_16_serial/serial/config", "payload": "{\"device\": {\"name\": \"Wiren Board Wb-Mr3 16 Serial\", \"identifiers\": \"wb_mr3_16_serial\", \"manufacturer\": \"Wiren Board\", \"serial_number\": \"250849\"}, \"name\": \"Wb-Mr3 16 Serial\", \"unique_id\": \"wb_mr3_16_serial\", \"availability_topic\": \"/devices/wb-mr3_16/controls/Serial/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/wb-mr3_16/controls/Serial\"}"}
+{"topic": "homeassistant/sensor/wirenboard/batch_no/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\", \"model\": \"8.5.1\", \"hw_version\": \"8.5.1\", \"serial_number\": \"ABCDEFGH\", \"sw_version\": \"wb-2501\"}, \"name\": \"System Batch No\", \"unique_id\": \"system_batch_no\", \"availability_topic\": \"/devices/system/controls/Batch No/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/system/controls/Batch No\"}"}
+{"topic": "homeassistant/sensor/wirenboard/current_uptime/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\", \"model\": \"8.5.1\", \"hw_version\": \"8.5.1\", \"serial_number\": \"ABCDEFGH\", \"sw_version\": \"wb-2501\"}, \"name\": \"System Current Uptime\", \"unique_id\": \"system_current_uptime\", \"availability_topic\": \"/devices/system/controls/Current uptime/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/system/controls/Current uptime\"}"}
+{"topic": "homeassistant/sensor/wirenboard/dts_version/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\", \"model\": \"8.5.1\", \"hw_version\": \"8.5.1\", \"serial_number\": \"ABCDEFGH\", \"sw_version\": \"wb-2501\"}, \"name\": \"System Dts Version\", \"unique_id\": \"system_dts_version\", \"availability_topic\": \"/devices/system/controls/DTS Version/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/system/controls/DTS Version\"}"}
+{"topic": "homeassistant/sensor/wirenboard/manufacturing_date/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\", \"model\": \"8.5.1\", \"hw_version\": \"8.5.1\", \"serial_number\": \"ABCDEFGH\", \"sw_version\": \"wb-2501\"}, \"name\": \"System Manufacturing Date\", \"unique_id\": \"system_manufacturing_date\", \"availability_topic\": \"/devices/system/controls/Manufacturing Date/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/system/controls/Manufacturing Date\"}"}
+{"topic": "homeassistant/sensor/wirenboard/release_suite/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\", \"model\": \"8.5.1\", \"hw_version\": \"8.5.1\", \"serial_number\": \"ABCDEFGH\", \"sw_version\": \"wb-2501\"}, \"name\": \"System Release Suite\", \"unique_id\": \"system_release_suite\", \"availability_topic\": \"/devices/system/controls/Release suite/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/system/controls/Release suite\"}"}
+{"topic": "homeassistant/sensor/wirenboard/temperature_grade/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\", \"model\": \"8.5.1\", \"hw_version\": \"8.5.1\", \"serial_number\": \"ABCDEFGH\", \"sw_version\": \"wb-2501\"}, \"name\": \"System Temperature Grade\", \"unique_id\": \"system_temperature_grade\", \"availability_topic\": \"/devices/system/controls/Temperature Grade/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/system/controls/Temperature Grade\"}"}
+{"topic": "homeassistant/sensor/wirenboard/log/config", "payload": "{\"device\": {\"name\": \"Wiren Board\", \"identifiers\": \"wirenboard\", \"manufacturer\": \"Wiren Board\"}, \"name\": \"Alarms Log\", \"unique_id\": \"alarms_log\", \"availability_topic\": \"/devices/alarms/controls/log/availability\", \"payload_available\": \"1\", \"payload_not_available\": \"0\", \"state_topic\": \"/devices/alarms/controls/log\"}"}

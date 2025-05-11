@@ -1,0 +1,64 @@
+name: "Wiren Board Discovery"
+description: "Use Home Assistant MQTT Discovery to add Wiren Board devices"
+version: "0.1.0"
+slug: "ha_wb_discovery"
+url: "https://github.com/vetcher/ha-wb-discovery"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+map:
+  - type: addon_config
+options:
+  wirenboard:
+    broker_host: null
+    broker_port: 1883
+  homeassistant:
+    config_publish_delay: 0
+  homeassistant.ignored_device_ids: []
+  homeassistant.ignored_device_control_ids: []
+  homeassistant.splitted_device_ids: []
+  homeassistant.combined_devices: []
+  homeassistant.enable_default_combined_devices: true
+  general.loglevel: WARNING
+  mqtt.loglevel: ERROR
+schema:
+  wirenboard:
+    broker_host: str
+    broker_port: port
+    username: str?
+    password: password?
+    mqtt_client_id: str?
+    subscribe_qos: int(0,2)?
+    publish_qos: int(0,2)?
+    publish_retain: bool?
+  homeassistant:
+    broker_host: str?
+    broker_port: port?
+    username: str?
+    password: password?
+    mqtt_client_id: str?
+    config_first_publish_delay: int?
+    config_publish_delay: int
+    subscribe_qos: int(0,2)?
+    availability_qos: int(0,2)?
+    availability_retain: bool?
+    config_qos: int(0,2)?
+    config_retain: bool?
+    state_qos: int(0,2)?
+    state_retain: bool?
+  homeassistant.ignored_device_ids: [str]
+  homeassistant.ignored_device_control_ids: [str]
+  homeassistant.splitted_device_ids: [str]
+  homeassistant.combined_devices:
+    - device_id: str
+      new_device_id: str
+      new_name: str
+  homeassistant.enable_default_combined_devices: bool
+  general.loglevel: match(DEBUG|INFO|WARNING|ERROR|FATAL)
+  mqtt.loglevel: match(DEBUG|INFO|WARNING|ERROR|FATAL)
+services:
+  - mqtt:need
